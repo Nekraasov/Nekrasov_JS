@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <input type="button" value='Нажмите' onClick="checkEnteredNumber()">
+</body>
+<script >
+  function checkEnteredNumber(){
+    let name = prompt('Введите свое имя', '');
+
+    if (name == 'Вячеслав') {
+      alert( 'Привет, Вячеслав!' );
+    } else {
+      alert('Нет такого имени');
+    }
+  }
+</script>
+
+</html>
